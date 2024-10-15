@@ -12,6 +12,7 @@ class City {
 // TODO: Complete the HistoryService class
 class HistoryService {
   // TODO: Define a read method that reads from the searchHistory.json file
+  
 
     private filePath: string; // Path to the searchHistory.json file
 
@@ -29,6 +30,10 @@ class HistoryService {
     return new Promise((resolve, reject) => {
         // Convert the cities array to a JSON string
         const data = JSON.stringify(cities, null, 2); // Pretty print with 2 spaces
+
+        
+        
+      
     
 }
   // private async write(cities: City[]) {}
@@ -41,6 +46,7 @@ class HistoryService {
   // async getCities() {}
   // TODO Define an addCity method that adds a city to the searchHistory.json file
   
+  
   // Define the add city method
 
   
@@ -49,10 +55,8 @@ class HistoryService {
   // async addCity(city: string) {}
   // * BONUS TODO: Define a removeCity method that removes a city from the searchHistory.json file
   // async removeCity(id: string) {}
-    )
-  }
-}
-        )
-    }
-  }
+    
+
+
+  
 
